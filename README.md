@@ -18,3 +18,14 @@
 ```bash
 ./run_micro_ros_agent.sh
 ```
+
+# Connnect to the vehicle
+
+1. Make an hotspot or wifi with the following name
+    - SSID : asurt
+    - Pass : 12345678
+2. get the ip of the pi connected
+3. connect to the pi via ssh 
+    ```bash
+    ssh f1_pi@<IP>
+    ```
